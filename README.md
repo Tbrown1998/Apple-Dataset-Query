@@ -2,38 +2,59 @@
 
 ![Seoul-Apple-Garosugil-In-Store-01242018_big jpg large](https://github.com/user-attachments/assets/3ce75c25-74c0-4004-af2a-c5573c0dff02)
 
-## Project Overview
-**Project Title:** Apple millions of rows Dataset Query
+# Project Overview  
+
+## **Apple Retail Sales Analysis 📊**  
+
+### **Objective**  
+This project aims to analyze Apple's retail sales data to uncover key insights into product performance, store revenue distribution, and overall sales trends. The dataset consists of **over 1 million rows** and spans multiple tables, including **products, sales, categories, warranties, and stores.**  
+
+The primary goal is to identify **the top country where each product generates the highest revenue** while also exploring key performance indicators (KPIs) for sales and customer behavior.
+
+### **Key Goals**  
+- **Data Cleaning & Preparation:** Process large-scale retail data for accurate analysis.  
+- **Sales Performance Analysis:** Identify top-performing products and revenue trends.  
+- **Geographical Insights:** Determine which country contributes the most revenue for each product.  
+- **Business Intelligence Reporting:** Build **Power BI dashboards** for visual representation and actionable insights.
+
+### **Expected Outcomes**  
+By leveraging SQL and Power BI, this project will deliver **data-driven insights** to enhance Apple's retail strategy, optimize store performance, and identify revenue opportunities across different markets.  
+
+### Technology Stack
+- **Data Preparation & Loading** - Microsoft Excel
+- **DBMS:** PostgreSQL 
+- **Query Language:** SQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+- **Data Visualization**: Powerbi (Future Work)
+---
+## Project Showcase
 This project is designed to showcase advanced SQL querying techniques through the analysis of over 1 million rows of Apple retail sales data. The dataset includes information about `products`, `stores`, `sales transactions`, and `warranty claims` across various Apple retail locations globally. Tackling a variety of real-world business questions, and write sophisticated SQL queries that extract valuable insights from this large dataset.
 
-## Project Focus
-
-This project primarily focuses on developing and showcasing the following SQL skills:
-
+### This project primarily focuses on showcasing the following SQL skills:
 - **Complex Joins and Aggregations**: Demonstrating the ability to perform complex SQL joins and aggregate data meaningfully.
 - **Window Functions**: Using advanced window functions for running totals, growth analysis, and time-based queries.
 - **Data Segmentation**: Analyzing data across different time frames to gain insights into product performance.
 - **Correlation Analysis**: Applying SQL functions to determine relationships between variables, such as product price and warranty claims.
 - **Real-World Problem Solving**: Answering business-related questions that reflect real-world scenarios faced by data analysts.
 
+
+### **Dataset Overview**  
+- Dataset was downloaded from [Get the Project Datasets](https://topmate.io/zero_analyst/1237072)
+  
 ### Entity Relationship Diagram (ERD)
 
 ![ERD](https://github.com/najirh/Apple-Retail-Sales-SQL-Project---Analyzing-Millions-of-Sales-Rows/blob/main/erd.png)
-
-## Technology Stack
-- **Data Preparation & Loading** - Microsoft Excel
-- **DBMS:** PostgreSQL 
-- **Query Language:** SQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
-
-## Data Source
-- Dataset was downloaded from [Get the Project Datasets](https://topmate.io/zero_analyst/1237072)
----
-
 ## Dataset Description
 - **Size**: 1 million+ rows of sales data.
 - **Period Covered**: The data spans multiple years, allowing for long-term trend analysis.
 - **Geographical Coverage**: Sales data from Apple stores across various countries.
+
+The dataset consists of five interconnected tables:  
+- **Sales** – Transaction-level sales data.  
+- **Products** – Information on product categories and pricing.  
+- **Stores** – Details of retail store locations and countries.  
+- **Categories** – Classification of Apple products.  
+- **Warranty** – Information on product warranties and coverage.  
 
 The project uses five main tables:
 
