@@ -44,7 +44,7 @@ This project is designed to showcase advanced SQL querying techniques through th
 
 ```mermaid
 graph TD
-    A[Raw Data] --> B[SQL Cleaning]
+    A[Raw Data] --> B[SQL Database]
     B --> C[SQL Cleaning]
     C --> D[Analytical Queries]
     D --> E[Key Insights & Findings]
